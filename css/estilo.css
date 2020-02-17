@@ -10,15 +10,15 @@ body {
 /*   background-color: red; */
 }
 
-.pergunta-nota-satifacao {
+.pergunta label {
+  margin-inline-start: 1em;
+}
+
+.nota-satifacao {
   display: flex;
   align-items: center;
   height: 5em;
-/*   background-color: saddlebrown; */
-}
-
-.pergunta label {
-  margin-inline-start: 122em;
+/*     background-color: red; */
 }
 
 .satifacao {
@@ -37,60 +37,70 @@ body {
 /*   background-color: red; */
 }
 
-.satifacao  button:nth-child(1){
+.satifacao button:nth-child(1) {
   background-color: #b72026;
   border: 1px solid #b72026;
   color: white;
 }
-
-.satifacao button:nth-child(2){
+.satifacao button:nth-child(2) {
   background-color: #d91e29;
   border: 1px solid #d91e29;
   color: white;
 }
-.satifacao button:nth-child(3){
+.satifacao button:nth-child(3) {
   background-color: #f05125;
   border: 1px solid #f05125;
   color: white;
 }
-.satifacao button:nth-child(4){
+.satifacao button:nth-child(4) {
   background-color: #f3701f;
   border: 1px solid #f3701f;
   color: white;
 }
-.satifacao button:nth-child(5){
+.satifacao button:nth-child(5) {
   background-color: #f9a824;
   border: 1px solid #f9a824;
   color: white;
 }
-.satifacao button:nth-child(6){
+.satifacao button:nth-child(6) {
   background-color: #ffcc25;
   border: 1px solid #ffcc25;
   color: white;
 }
-.satifacao button:nth-child(7){
+.satifacao button:nth-child(7) {
   background-color: #ebdc14;
   border: 1px solid #ebdc14;
   color: white;
 }
-.satifacao button:nth-child(8){
+.satifacao button:nth-child(8) {
   background-color: #e7e83d;
   border: 1px solid #e7e83d;
   color: white;
 }
-.satifacao button:nth-child(9){
+.satifacao button:nth-child(9) {
   background-color: #c4d92b;
   border: 1px solid #c4d92b;
   color: white;
 }
-.satifacao button:nth-child(10){
+.satifacao button:nth-child(10) {
   background-color: #b1d137;
   border: 1px solid #b1d137;
   color: white;
 }
-.satifacao button:nth-child(11){
+.satifacao button:nth-child(11) {
   background-color: #66b54d;
   border: 1px solid #66b54d;
   color: white;
 }
 
+.campo-justificativa {
+  display: flex;
+  align-items: center;
+  height: 5em;
+/*   background-color: blue; */
+}
+
+#enviar {
+  width: 20em;
+/*   background-color: purple; */
+}
