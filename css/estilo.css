@@ -102,5 +102,10 @@ body {
 
 #enviar {
   width: 20em;
+  height: 3em;
+  margin-top: 2em;
+  border-radius: 10px;
+  background-color: #CCCCCC;
+  border: 1px solid #CCCCCC;
 /*   background-color: purple; */
 }
