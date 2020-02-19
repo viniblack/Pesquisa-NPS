@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +8,19 @@
   <link rel="stylesheet" href="css/estilo.css">
   <title>Pesquisa NPS</title>
 </head>
+
 <body>
-  <form action="" class="formulario">
+  <form name="formNps" action="php/email.php" method="POST" class="formulario">
     <div class="pergunta nota-satifacao">
-      <label for="">  Em uma escala de 0 a 10, o quanto você indicaria essa Empresa para  
-        outras pessoas</label>
+      <p>
+        <label for="">
+          Em uma escala de 0 a 10, o quanto você recomendaria a %loja% para um amigo ou colega?
+        </label>
+      </p>
     </div>
 
     <div class="satifacao">
-      <button type="button">0</button>
+      <button type="button" data-note="0">0</button>
       <button type="button">1</button>
       <button type="button">2</button>
       <button type="button">3</button>
@@ -29,16 +34,22 @@
     </div>
 
     <div class="pergunta campo-justificativa">
-      <label>Em poucas palavras, descreva o que motivou sua nota sobre a indicação</label>
+      <p>
+        <label>
+          Em poucas palavras, descreva o que motivou sua nota sobre a indicação
+        </label>
+      </p>
+
     </div>
 
     <div class="justificativa">
-      <textarea name="" id="" cols="50" rows="10"></textarea>
+      <textarea placeholder="Escreva aqui a justificativa" name="justificativa" id="textarea-justificativa" cols="50"rows="10"></textarea>
     </div>
-    
+
     <button id="enviar" type="submit">Enviar</button>
 
-    <script src="js/index.js"></script>
+    
   </form>
 </body>
+
 </html>
